@@ -1,6 +1,6 @@
 # eslint-config-edusoho
 
-[Englise]("/README.md")
+[Englise](/README.md)
 
 ## Installation
 
