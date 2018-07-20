@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-edusoho",
+  "version": "0.0.1",
+  "description": "edusoho的eslint自定义配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "edusoho",
+    "eslint",
+    "javascript",
+    "style",
+    "code",
+    "style"
+  ],
+  "author": "edusoho",
+  "license": "ISC"
+}
