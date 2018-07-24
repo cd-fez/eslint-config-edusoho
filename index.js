@@ -2,6 +2,7 @@
 'use strict';
 
 module.exports = {
+  parser: "babel-eslint",
 	rules: {
 		"camelcase": 0,
     "max-len": [2, { code: 120 }],

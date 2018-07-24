@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-edusoho",
-  "version": "0.0.1",
+  "version": "0.0.1-beta1",
   "description": "edusoho的eslint自定义配置",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
     "style"
   ],
   "author": "edusoho",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6"
+  }
 }
