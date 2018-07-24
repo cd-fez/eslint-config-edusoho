@@ -37,3 +37,19 @@ Once the `eslint-config-edusoho` package is installed, you can use it by
   }
 }
 ```
+
+### 自定义设置
+
+如果你不想使用默认的规则，你可以把你想要的规则配置到[eslint]的[rules]部分中，并且[rules]中的规则会覆盖掉[extends]中的
+
+```js
+{
+  "extends": ["eslint:recommended", "edusoo"],
+  "rules": {
+    "camelcase": 0,
+    "max-len": [2, { code: 120 }],
+    "no-tabs": 0,
+    "quotes": [2, "single"],
+  }
+}
+```
